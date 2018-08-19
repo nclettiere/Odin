@@ -1,4 +1,4 @@
-# Java-Programacion-II
+# Odin Remasterizado
 
 Traduccion de antiguo codigo forjado por Odin en los montes de Midgaard.
 
