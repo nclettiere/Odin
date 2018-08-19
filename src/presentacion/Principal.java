@@ -1,5 +1,7 @@
 package presentacion;
 
+import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 import logica.Articulos;
 
 public class Principal extends javax.swing.JFrame {
@@ -169,7 +171,10 @@ public class Principal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 Principal principal = new Principal();
+                principal.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Assets/if_Viking_Male_80909.png")));
+                principal.setTitle("Odin - v1.0.0-stable");
                 principal.setVisible(true);
+                
             }
         });
     }
