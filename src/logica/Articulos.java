@@ -2,8 +2,6 @@ package logica;
 
 import java.util.ArrayList;
 
-import java.util.StringJoiner;
-
 public class Articulos {
     private final ArrayList<Articulo> lista;
 
@@ -110,12 +108,6 @@ public class Articulos {
 
     @Override
     public String toString() {
-        String prefix = "";
-
-        StringJoiner joiner = new StringJoiner(prefix,prefix,prefix);
-        for (Articulo i : lista)
-            joiner.add(i.toString() + "\n");
-
         return ""+ lista + "";
     }
 }
