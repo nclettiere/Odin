@@ -103,6 +103,7 @@ public class Principal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    // Llamada a clase "CantidadArticulos.java"
     private void bCantidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCantidadActionPerformed
         CantidadArticulos cantidadArticulos = new CantidadArticulos();
         int width = cantidadArticulos.getSizes()[0];
@@ -111,7 +112,8 @@ public class Principal extends javax.swing.JFrame {
         jDesktopPane1.add(cantidadArticulos);
         cantidadArticulos.setVisible(true); 
     }//GEN-LAST:event_bCantidadActionPerformed
-
+    
+    // Llamada a clase "NuevoArticulo.java"
     private void bAltaArticuloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAltaArticuloActionPerformed
         NuevoArticulo nuevoArticulo = new NuevoArticulo();
         int width = nuevoArticulo.getSizes()[0];
@@ -121,6 +123,7 @@ public class Principal extends javax.swing.JFrame {
         nuevoArticulo.setVisible(true); 
     }//GEN-LAST:event_bAltaArticuloActionPerformed
 
+    // Llamada a clase "ListarArticulos.java"
     private void bListarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bListarActionPerformed
         ListarArticulos listarArticulos = new ListarArticulos();
         int width = listarArticulos.getSizes()[0];
@@ -130,6 +133,7 @@ public class Principal extends javax.swing.JFrame {
         listarArticulos.setVisible(true); 
     }//GEN-LAST:event_bListarActionPerformed
 
+    // Llamada a clase "ArticuloMasCaro.java"
     private void bCaroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCaroActionPerformed
         ArticuloMasCaro articulocaro = new ArticuloMasCaro();
         int width = articulocaro.getSizes()[0];
@@ -139,6 +143,7 @@ public class Principal extends javax.swing.JFrame {
         articulocaro.setVisible(true); 
     }//GEN-LAST:event_bCaroActionPerformed
 
+    // Llamada a clase "EliminarArticulo.java"
     private void bKillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKillActionPerformed
         EliminarArticulo eliminarArticulo = new EliminarArticulo();
         int width = eliminarArticulo.getSizes()[0];

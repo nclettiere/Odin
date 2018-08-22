@@ -243,8 +243,9 @@ public class NuevoArticulo extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_bCancelarActionPerformed
 
     private void bAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAceptarActionPerformed
-
         try {
+            // Chequeo de campos
+            // Si un campo no es valido retorna un error en JOptionPane
             if(!"".equals(tCodigo.getText())){
                 if(!"".equals(tPrecioCosto.getText()) &&
                     Integer.parseInt(tPrecioCosto.getText()) >= 0){
@@ -296,11 +297,12 @@ public class NuevoArticulo extends javax.swing.JInternalFrame {
             dialog.setVisible(true);
         }
     }//GEN-LAST:event_bAceptarActionPerformed
-
+    /* 
     private void tCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tCodigoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tCodigoActionPerformed
-
+    */
+    
     public int[] getSizes()  {
         Rectangle r = this.getBounds();
         int h = r.height;
